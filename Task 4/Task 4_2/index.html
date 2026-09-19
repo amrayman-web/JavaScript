@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body class="display-flex">
+
+
+    <div class="feedback-container display-flex d-column" id="main">
+        <h1>How Was Your Experience?</h1>
+
+        <div class="display-flex feedback-icons">
+
+            <button class="icon" type="button">
+                <div>
+                    <i class="fa-regular fa-face-frown red"></i>
+                </div>
+                <p>Unhappy</p>
+            </button>
+
+            <button class="icon" type="button">
+                <div>
+                    <i class="fa-regular fa-face-meh yellow"></i>
+                </div>
+                <p>Neutral</p>
+            </button>
+
+            <button class="icon" type="button">
+                <div>
+                    <i class="fa-regular fa-face-smile green"></i>
+                </div>
+                <p>Satisfied</p>
+            </button>
+
+        </div>
+
+        <div class="send-review">
+            <button class="review-button" id="reviewBtn" disabled>
+                Send Review
+            </button>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

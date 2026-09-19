@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .light {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin: 5px;
+            border-style: double;
+        }
+
+        .traffic-light {
+            border-style: solid;
+            width: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .red-active {
+            background-color: red;
+        }
+
+        .yellow-active {
+            background-color: yellow;
+        }
+
+        .green-active {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- // Task 1: Change Heading Text ======================== -->
+
+
+    <h1 id="heading">Hello World</h1>
+    <button id="changeBtn">log In</button>
+
+    <br>
+    <br>
+
+    <!-- // Task 2: Change Paragraph Color ================== -->
+
+    <p id="text">This is my paragraph</p>
+
+    <button id="red-text">Red-text</button>
+    <button id="blue-text">Blue-text</button>
+    <button id="green-text">Green-text</button>
+
+    <br>
+    <br>
+
+    <!-- // Task 3: Change Background Color ================= -->
+
+    <button id="redBg">Red-Bg</button>
+    <button id="blueBg">Blue-Bg</button>
+    <button id="greenBg">Green-Bg</button>
+    <button id="whiteBg">White-Bg</button>
+
+    <br>
+    <br>
+
+    <!-- // Task 4: Show and Hide Text ============= -->
+
+    <p id="text-1">Welcome to JS task</p>
+
+    <button id="Show">Show</button>
+    <button id="Hide">Hide</button>
+
+    <br>
+    <br>
+
+    <!-- // Task 5: Change Image  -->
+
+    <img id="image" src="https://picsum.photos/960/540?1">
+    <button id="changeImage">Change Image</button>
+
+    <br>
+    <br>
+
+    <!-- // Task 6: Increase Font Size ============ -->
+
+    <p id="fontSizeText">Welcome Back.</p>
+
+    <button id="increaseFont">Increase Font</button>
+
+    <br>
+    <br>
+
+    <!-- Task 7: Counter ============ -->
+
+    <p id="counter">0</p>
+
+    <button id="increaseBtn">Increase</button>
+    <button id="decreaseBtn">Decrease</button>
+    <button id="resetBtn">Reset</button>
+
+    <br>
+    <br>
+
+    <!-- Task 8: Toggle Dark Mode ============ -->
+
+    <button id="toggleDark">Dark Mode</button>
+
+    <br>
+    <br>
+
+    <!-- Task 9: Add a New Paragraph ======== -->
+    <div id="paragraph">
+    </div>
+
+    <button id="addParagraph">Add Paragraph</button>
+
+    <br>
+    <br>
+
+    <!-- Task 10: Remove the Last Paragraph ======== -->
+
+    <button id="removeParagraph">Remove Paragraph</button>
+
+    <br>
+    <br>
+
+    <!-- Task 11: Change Button Text =========== -->
+
+    <button id="changeButtonText">Click Me</button>
+
+    <br>
+    <br>
+
+    <!-- Task 12: Random Number Generator ====== -->
+
+    <p id="randomNumber">0</p>
+
+    <button id="generateNumberBtn">Generate</button>
+
+    <br>
+    <br>
+
+    <!-- Task 13: Random Background Colour  =====-->
+
+    <button id="randomColorBtn">Random Color</button>
+
+    <br>
+    <br>
+
+    <!-- Task 14: Traffic Light ======== -->
+
+    <div class="traffic-light">
+        <div id="redLight" class="light"></div>
+        <div id="yellowLight" class="light"></div>
+        <div id="greenLight" class="light"></div>
+    </div>
+
+    <button id="redLightBtn">Red</button>
+    <button id="yellowLightBtn">Yellow</button>
+    <button id="greenLightBtn">Green</button>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

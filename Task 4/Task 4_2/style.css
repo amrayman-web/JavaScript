@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #14B8A6, #3B82F6);
+    color: #202632;
+    height: 100vh;
+    user-select: none;
+
+}
+
+.display-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.d-column {
+    flex-direction: column;
+}
+
+.feedback-container {
+    background: whitesmoke;
+    border-radius: 15px;
+    padding: 35px;
+    width: 450px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.feedback-container h1 {
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.feedback-icons {
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.icon {
+    background: transparent;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.icon i {
+    font-size: 45px;
+    margin-bottom: 8px;
+}
+
+.red {
+    color: rgb(160, 41, 41);
+}
+
+.yellow {
+    color: rgb(127, 127, 63);
+}
+
+.green {
+    color: rgb(87, 166, 87);
+}
+
+.icon p {
+    font-size: 16px;
+}
+
+.icon:hover {
+    background-color: #e8f8f6;
+    border-color: #14B8A6;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.icon:active {
+    transform: translateY(1px);
+    background-color: #14B8A6;
+}
+
+.icon.active {
+    background-color: #e8f8f6;
+    border-color: #14B8A6;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+.send-review {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.review-button {
+    border: none;
+    background-color: #14B8A6;
+    color: white;
+    padding: 13px 30px;
+    border-radius: 9px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+    width: 100%;
+}
+
+.review-button:hover {
+    background-color: #0f9487;
+    transform: translateY(-2px);
+}
+
+.review-button:active {
+    transform: translateY(1px);
+    background-color: #094f48;
+}
+
+.review-button:disabled {
+    background-color: #ccc;
+    color: #888;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.review-button:hover:disabled {
+    transform: none;
+}
